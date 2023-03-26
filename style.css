@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  body{
+    background-color: rgb(244, 231, 146);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%; 
+    flex-direction: column;
+  }
+  
+  .title{
+    margin-top: 25px;
+    justify-content: center;
+    text-align: center;
+    color: #ffff;
+    margin-bottom: 15px;
+  }
+  
+  .list{
+    width: 200px;
+    height: 5vh;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgb(49, 49, 48);
+    
+  }
+  
+  
+  .list-head{
+    display: flex;
+    gap: 10px;
+  
+  }
+  
+  .input{
+    padding: 5px;
+    border: 1px #2a2c0e;
+    font-size: 14px;
+  }
+  
+  .add-btn{
+    display: flex;
+    align-items: center;
+  }
+
+  .add-btn i{
+    color: #3b2c08;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .add.active{
+    opacity: 1;
+    pointer-events: all;
+  }
+  
+  .tasks{
+    width: 100%;
+    margin-top: 40px;
+  }
+  
+  .items{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px rgb(49, 49, 48);
+    margin-bottom: 20px;
+  
+  }
+  
+  .items p{
+    font-size: 15px;
+    color: #0a0909;
+  }
+  
+  
+  .item-btn{
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-btn i{
+    color: #3b2c08 ;
+    font-size: 20px;
+    cursor: pointer;
+  }
